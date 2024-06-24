@@ -1,0 +1,84 @@
+
+.cabecera h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contenedor {
+  width: 1000px;
+  margin: auto;
+  padding: 5px;
+}
+.principal {
+  width: 45%;
+  float: left;
+  margin: 10px;
+}
+.principal h1, h2 {
+  padding: 5px;
+  border-radius: 18px;
+  border: 2px solid #81171B;
+  color: #000022;
+} 
+.lateral {
+  width: 45%;
+  float: left;
+  margin: 10px;
+}
+.lateral h1, h2 {
+  padding: 5px;
+  border-radius: 18px;
+  border: 2px solid #81171B;
+  color: #000022;
+}
+.menu {
+  float: right;
+  list-style-type: none;
+  margin-right: 10px;
+}
+.menu li a{
+  transition: 0.5s;
+  margin: 0 16px;
+  align-items: center;
+  padding: 0 16px;
+}
+.menu li a:hover {
+  color: #E28413;
+  font-size: 20px;
+}
+.menu li a {
+  text-decoration: none;
+  color:#000022;
+}
+.pie_pagina {
+  clear: both;
+  background-color: #AD2E24;
+  color: rgb(255, 255, 255);
+  padding: 30px;
+  height: 180px;
+}
+.info {
+  float: left;
+  width: 45%;
+  height: 100%;
+  margin-top: 25px;
+}
+.Copyright {
+  margin-top: 150px;
+  text-align: left;
+}
+.rsocial {
+  float: right;
+  width: 10%;
+}
+.rsocial a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.rsocial a:hover {
+  color: #E28413;
+  font-size: 18px;
+}
+.rsocial img {
+  width: 25px;
+}

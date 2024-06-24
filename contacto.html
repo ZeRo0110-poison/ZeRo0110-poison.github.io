@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contratos: sitio de Arnold</title>
+    <link rel="stylesheet" href="assets/css/contacto.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <ul>
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <br>
+        <li>
+          <a href="articulos.html">Articulos</a>
+        </li>
+        <br>
+        <li>
+          <a href="servicios.html">Servicios</a>
+        </li>
+      </ul>
+    </div>
+    Para más información, llena los siguientes datos:
+    <br />
+    <br />
+    <form action="">
+      <label for="nombre">Nombre:</label>
+      <input
+        type="text"
+        name="nombre"
+        id="nombre"
+        placeholder="Nombre"
+      /><br /><br />
+      <label for="apellidos">Apellidos:</label>
+      <input
+        type="text"
+        name="apellidos"
+        id="apellidos"
+        placeholder="Apellidos"
+      /><br /><br />
+      Escriba aquí sus comentarios o solicitudes: <br /><br />
+      <textarea
+        name="Comentarios"
+        id="comentarios"
+        cols="50"
+        rows="10"
+      ></textarea
+      ><br /><br />
+      Seleccione su sexo:
+      <select name="sexo" id="sexo">
+        <option value="">Masculino</option>
+        <option value="">Femenino</option>
+        <option value="">Otro</option>
+      </select>
+      <br /><br />
+      Escriba su edad:
+      <textarea name="edad" id="edad" cols="10" rows="1"> </textarea
+      ><br /><br />
+      Seleccione sus actividades preferidas: <br /><br />
+
+      <input type="checkbox" name="gimnasia" id="gimnasia" />
+      Gimnasio:
+      <input type="checkbox" name="pesas" id="pesas" />
+      Pesas:
+      <input type="checkbox" name="natacion" id="natacion" />
+      Natación:
+      <input type="checkbox" name="Pilates" id="Pilates" />
+      Pilates: <br /><br />
+      <input type="hidden" name="oculto" value="password545" />
+      ==== Campos nuevos de html5 ==== <br /><br />
+      <img src="assets/images/pesas.webp" alt="" />
+      <br /><br />
+      Escriba su fecha de nacimiento: <br /><br />
+      <input type="date" name="FechaNac" id="FechaNac" />
+      <br /><br />
+      Escriba su email:
+      <input type="email" name="email" id="email" placeholder="Email" />
+      <br /><br />
+      Ingrese una contraseña:
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Contraseña"
+      />
+      <br /><br />
+      Deslice para mostrar:
+      <input type="range" name="range" id="range" />
+      <br /><br />
+      Suba el archivo a enviar:
+      <input type="file" name="archivo" id="archivo" />
+      <br /><br />
+      <input type="reset" value="Cancelar" />
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

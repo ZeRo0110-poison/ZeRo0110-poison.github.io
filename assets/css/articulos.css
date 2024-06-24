@@ -1,0 +1,27 @@
+.menu {
+  float: right;
+  list-style-type: none;
+  margin-right: 10px;
+}
+.menu li a{
+  transition: 0.5s;
+margin: 0 16px;
+align-items: center;
+padding: 0 16px;
+}
+.menu li a:hover {
+  color: #E28413;
+  font-size: 20px;
+}
+.menu li a {
+  text-decoration: none;
+  color: #000022;
+}
+.gogo th, tr, td{
+  border: solid 2px;
+  width: 300px;
+}
+.gogogo th, tr, td{ 
+  border: solid 2px;
+  width: 300px;
+}
